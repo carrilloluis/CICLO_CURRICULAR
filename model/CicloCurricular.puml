@@ -1,0 +1,12 @@
+@startuml
+	hide circle
+	
+	entity CicloCurriculas as e1 (
+		fechaDeVigencia : Date 
+		cicloNumérico : int
+		descripción : String
+		estados : int
+	)
+	
+	
+@enduml
